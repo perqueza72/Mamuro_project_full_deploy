@@ -1,0 +1,7 @@
+*.tfstate
+*.tfstate*
+CHANGELOG.md
+LICENSE
+terraform-provider*
+.terraform
+*.hcl
