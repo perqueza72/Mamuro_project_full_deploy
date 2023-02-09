@@ -1,0 +1,9 @@
+[submodule "mamuro_backend"]
+	path = mamuro_backend
+	url = https://github.com/perqueza72/Mamuro_backend
+[submodule "mamuro_front"]
+	path = mamuro_front
+	url = https://github.com/perqueza72/mamuro
+[submodule "indexer_golang"]
+	path = indexer_golang
+	url = https://github.com/perqueza72/DB_Manager_Golang
