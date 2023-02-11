@@ -16,3 +16,14 @@ resource "null_resource" "startup" {
   }
 }
 
+
+output "network_data" {
+  value = "${docker_container.front_end.network_data}"
+}
+
+output "ip_addresses" {
+  value = "${tolist([
+    lookup(docker_container.front_end.network_data[0], "ip_address")
+    ]
+  )}"
+}
